@@ -19,9 +19,9 @@ def login():
     pass_input = request.form.get('password')
 
     if user_input == USERNAME and pass_input == PASSWORD:
-        return "<h2>Login Successful! ✅</h2><p>Welcome to your PaaS App.</p>"
+        return "<h2>Login Successful! </h2><p>Welcome to your PaaS App.</p>"
     else:
-        return "<h2>Invalid Username or Password ❌</h2><a href='/'>Try Again</a>"
+        return "<h2>Invalid Username or Password </h2><a href='/'>Try Again</a>"
 
 if __name__ == '__main__':
     
